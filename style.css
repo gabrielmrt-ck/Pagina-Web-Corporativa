@@ -1,0 +1,129 @@
+header {
+    display: flex;
+    align-items: center;     
+    
+}
+
+.Telefono {
+    margin-left: 850px; 
+    
+}
+
+.Logo{
+    width: 250px;
+    height: 130px;
+    margin-left: 70px;
+}
+
+.menu {
+
+        background-color: rgb(13, 131, 210);
+    color: white;
+    font-weight: 400;
+    font-family: "Game";
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    display: inline-block;  
+}
+
+div a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+
+}
+
+.contacto {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+
+fieldset {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+legend {
+  font-weight: bold;
+  color: #2c3e50;
+  padding: 0 10px;
+}
+
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* RADIO Y CHECKBOX */
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+fieldset div {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+  flex-wrap: wrap;
+}
+
+/* BOTONES */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  background-color: #3498db;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+button[type="reset"] {
+  background-color: #e74c3c;
+  color: white;
+}
+
+button[type="reset"]:hover {
+  background-color: #c0392b;
+}
+

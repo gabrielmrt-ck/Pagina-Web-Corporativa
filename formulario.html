@@ -4,8 +4,132 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+     <section class="contacto">
+  <h2>Solicitud de presupuesto</h2>
+
+  <form class="form-empresa">
+
+
+    <fieldset>
+      <legend>Datos personales</legend>
+      <label>Apellidos:</label>
+      <input type="text" required>
+
+      <label>Nombre:</label>
+      <input type="text" required>
+
+      <label>DNI:</label>
+      <input type="text" required>
+
+      <br><label>Nacido/a en:</label>
+      <input type="text" required>
+
+      <label>Provincia:</label>
+      <input type="text" required>
+
+      <br><label>Fecha nacimiento(dd/mm/aa):</label>
+      <input type="text" required>
+
+      <br><label>Domicilio:</label>
+      <input type="text" required>
+
+      <label>Piso:</label>
+      <input type="text" required>
+
+      <label>Número:</label>
+      <input type="text" required>
+
+      <br><label>Código Postal:</label>
+      <input type="text" required>
+
+      <br><label>Locaildad:</label>
+      <input type="txt" required>
+
+      <label>Correo Electronico:</label>
+      <input type="email" required>
+
+      <label>Teléfono</label>
+      <input type="tel" pattern="[0-9]{9}">
+
+      <br><label>SEXO:</label>
+      <div>
+        <label><input type="radio" name="tipo">Masculino</label>
+        <label><input type="radio" name="tipo">Femenino</label>
+      </div>
+
+      <label>Estatura:</label>
+      <div>
+            <label><input type="radio" name="tipo">Soltero</label>
+            <label><input type="radio" name="tipo">Casado</label>
+            <label><input type="radio" name="tipo">Otro</label>
+      </div>
+
+      
+    </fieldset>
+
+    
+    <fieldset>
+      <legend>Documentación</legend>
+      <label>Número de Crup</label>
+      <input type="text">
+
+      <label>Número de Cartilla servicio militar</label>
+      <input type="text">
+
+      <label>Número de Pasaporte</label>
+      <input type="text">
+
+      <label>Tipo de licencia y número</label>
+      <input type="text">
+
+      <br><label>Licencia de manejo</label>
+      <div>
+            <label><input type="radio" name="tipo">Si</label>
+            <label><input type="radio" name="tipo">No</label>
+      </div>
+
+    </fieldset>
+    <!-- MENSAJE -->
+    <fieldset>
+      <legend>Mensaje</legend>
+
+      <label>Mensaje:</label>
+      <textarea required minlength="20"></textarea>
+    </fieldset>
+
+
+<fieldset>
+  <legend>Firma y confirmación</legend>
+
+  <label for="firma">Nombre completo (firma digital) *</label>
+  <input type="text" id="firma" placeholder="Escribe tu nombre como firma" required>
+
+  <label for="dni">DNI / Identificación</label>
+  <input type="text" id="dni" placeholder="12345678A">
+
+  <label>Fecha de firma</label>
+  <input type="date" required>
+
+  <label class="checkbox">
+    <input type="checkbox" required>
+    Confirmo que los datos son correctos *
+  </label>
+
+  <label class="checkbox">
+    <input type="checkbox" required>
+    Acepto términos y condiciones *
+  </label>
+
+</fieldset>
+
+    <button type="submit">Enviar solicitud</button>
+    <button type="reset">Limpiar</button>
+
+  </form>
+</section>
     
 </body>
 </html>
