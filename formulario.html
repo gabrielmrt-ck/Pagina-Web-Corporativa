@@ -8,7 +8,7 @@
 </head>
 <body>
      <section class="contacto">
-  <h2>Solicitud de presupuesto</h2>
+  <h2>Solicitud de Trabajo</h2>
 
   <form class="form-empresa">
 
@@ -25,6 +25,9 @@
       <input type="text" required>
 
       <br><label>Nacido/a en:</label>
+      <input type="text" required>
+
+      <label>Estatura:</label>
       <input type="text" required>
 
       <label>Provincia:</label>
@@ -45,7 +48,7 @@
       <br><label>Código Postal:</label>
       <input type="text" required>
 
-      <br><label>Locaildad:</label>
+      <br><label>Localidad:</label>
       <input type="txt" required>
 
       <label>Correo Electronico:</label>
@@ -60,12 +63,7 @@
         <label><input type="radio" name="tipo">Femenino</label>
       </div>
 
-      <label>Estatura:</label>
-      <div>
-            <label><input type="radio" name="tipo">Soltero</label>
-            <label><input type="radio" name="tipo">Casado</label>
-            <label><input type="radio" name="tipo">Otro</label>
-      </div>
+  
 
       
     </fieldset>
@@ -73,23 +71,20 @@
     
     <fieldset>
       <legend>Documentación</legend>
-      <label>Número de Crup</label>
-      <input type="text">
-
-      <label>Número de Cartilla servicio militar</label>
+      <label>DNI</label>
       <input type="text">
 
       <label>Número de Pasaporte</label>
       <input type="text">
 
-      <label>Tipo de licencia y número</label>
-      <input type="text">
-
-      <br><label>Licencia de manejo</label>
+      <br><label>Licencia de conduccion </label>
       <div>
             <label><input type="radio" name="tipo">Si</label>
             <label><input type="radio" name="tipo">No</label>
       </div>
+
+      <label>Tipo de licencia ( Si tienes )</label>
+      <input type="text">
 
     </fieldset>
     <!-- MENSAJE -->
@@ -104,7 +99,7 @@
 <fieldset>
   <legend>Firma y confirmación</legend>
 
-  <label for="firma">Nombre completo (firma digital) *</label>
+  <label for="firma">Nombre completo </label>
   <input type="text" id="firma" placeholder="Escribe tu nombre como firma" required>
 
   <label for="dni">DNI / Identificación</label>
