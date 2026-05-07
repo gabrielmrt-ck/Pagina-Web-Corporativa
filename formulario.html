@@ -1,155 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Contacto - Webly</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
- <div class="contenedor">
-
+    <div class="contenedor">
         <header>
-            <img src="img/Logo.png" alt="" class="Logo">
-
-             <b class="Telefono"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTyJoLL9uX5Jsbd0oxtBLh3sbR5vSZEfQqLw&s" alt="" class="icontelf"> : +34 654 234 455 </b>             
-
-        </header>    
-  
-        <nav class="">
-<center>
-    <div class="menu"><a href="index.html"  >Home</a></div>
-    <div class="menu"><a href="Noticias.html">Noticias</a></div>
-    <div class="menu"><a href="QuienesSomos.html">Quienes Somos</a></div>
-    <div class="menu"><a href="Publicaciones.html">Publicaciones</a></div>
-    <div class="menu"><a href="Areas.html">Areas de Actuacion</a></div>
-    <div class="menu"><a href="Localizacion.html">Localizacion</a></div>
-    <div class="menu"><a href="formulario.html">Contacto</a></div>
-</center>
+            <a href="index.html"><img src="img/Logo.png" alt="Webly" class="Logo"></a>
+            <b class="Telefono"><img src="icons/icontel.png" alt="" class="icontelf"> : +34 654 234 455</b>
+        </header>
+        <nav>
+            <center>
+                <div class="menu"><a href="index.html">Home</a></div>
+                <div class="menu"><a href="Noticias.html">Noticias</a></div>
+                <div class="menu"><a href="QuienesSomos.html">Quienes Somos</a></div>
+                <div class="menu"><a href="Publicaciones.html">Publicaciones</a></div>
+                <div class="menu"><a href="Areas.html">Areas de Actuacion</a></div>
+                <div class="menu"><a href="Localizacion.html">Localizacion</a></div>
+                <div class="menu"><a href="formulario.html">Contacto</a></div>
+            </center>
         </nav>
+    </div>
 
+    <section class="contacto">
+        <h2>Solicitud de Trabajo</h2>
 
+        <form class="form-empresa">
 
+            <fieldset>
+                <legend>Datos personales</legend>
 
-     <section class="contacto">
-  <h2>Solicitud de Trabajo</h2>
+                <label>Apellidos:</label>
+                <input type="text" required>
 
-  <form class="form-empresa">
+                <label>Nombre:</label>
+                <input type="text" required>
 
+                <label>DNI:</label>
+                <input type="text" required>
 
-    <fieldset>
-      <legend>Datos personales</legend>
-      <label>Apellidos:</label>
-      <input type="text" required>
+                <br><label>Nacido/a en:</label>
+                <input type="text" required>
 
-      <label>Nombre:</label>
-      <input type="text" required>
+                <label>Estatura:</label>
+                <input type="text" required>
 
-      <label>DNI:</label>
-      <input type="text" required>
+                <label>Provincia:</label>
+                <input type="text" required>
 
-      <br><label>Nacido/a en:</label>
-      <input type="text" required>
+                <br><label>Fecha nacimiento (dd/mm/aa):</label>
+                <input type="text" required>
 
-      <label>Estatura:</label>
-      <input type="text" required>
+                <br><label>Domicilio:</label>
+                <input type="text" required>
 
-      <label>Provincia:</label>
-      <input type="text" required>
+                <label>Piso:</label>
+                <input type="text" required>
 
-      <br><label>Fecha nacimiento(dd/mm/aa):</label>
-      <input type="text" required>
+                <label>Numero:</label>
+                <input type="text" required>
 
-      <br><label>Domicilio:</label>
-      <input type="text" required>
+                <br><label>Codigo Postal:</label>
+                <input type="text" required>
 
-      <label>Piso:</label>
-      <input type="text" required>
+                <br><label>Localidad:</label>
+                <input type="text" required>
 
-      <label>Número:</label>
-      <input type="text" required>
+                <label>Correo Electronico:</label>
+                <input type="email" required>
 
-      <br><label>Código Postal:</label>
-      <input type="text" required>
+                <label>Telefono:</label>
+                <input type="tel" pattern="[0-9]{9}">
 
-      <br><label>Localidad:</label>
-      <input type="txt" required>
+                <br><label>Sexo:</label>
+                <div>
+                    <label><input type="radio" name="sexo"> Masculino</label>
+                    <label><input type="radio" name="sexo"> Femenino</label>
+                </div>
+            </fieldset>
 
-      <label>Correo Electronico:</label>
-      <input type="email" required>
+            <fieldset class="formulario">
+                <legend>Documentacion</legend>
 
-      <label>Teléfono</label>
-      <input type="tel" pattern="[0-9]{9}">
+                <label>DNI:</label>
+                <input type="text">
 
-      <br><label>SEXO:</label>
-      <div>
-        <label><input type="radio" name="tipo">Masculino</label>
-        <label><input type="radio" name="tipo">Femenino</label>
-      </div>
+                <label>Numero de Pasaporte:</label>
+                <input type="text">
 
-  
+                <br><label>Licencia de conduccion:</label>
+                <div>
+                    <label><input type="radio" name="licencia"> Si</label>
+                    <label><input type="radio" name="licencia"> No</label>
+                </div>
 
-      
-    </fieldset>
+                <label>Tipo de licencia (si tienes):</label>
+                <input type="text">
+            </fieldset>
 
-    
-    <fieldset class="formulario">
-      <legend>Documentación</legend>
-      <label>DNI</label>
-      <input type="text">
+            <fieldset class="formulario">
+                <legend>Mensaje</legend>
+                <label>Mensaje:</label>
+                <textarea required minlength="20"></textarea>
+            </fieldset>
 
-      <label>Número de Pasaporte</label>
-      <input type="text">
+            <fieldset class="formulario">
+                <legend>Firma y confirmacion</legend>
 
-      <br><label>Licencia de conduccion </label>
-      <div>
-            <label><input type="radio" name="tipo">Si</label>
-            <label><input type="radio" name="tipo">No</label>
-      </div>
+                <label for="firma">Nombre completo:</label>
+                <input type="text" id="firma" placeholder="Escribe tu nombre como firma" required>
 
-      <label>Tipo de licencia ( Si tienes )</label>
-      <input type="text">
+                <label for="dni2">DNI / Identificacion:</label>
+                <input type="text" id="dni2" placeholder="12345678A">
 
-    </fieldset>
-    
-    <fieldset class="formulario">
-      <legend>Mensaje</legend>
+                <label>Fecha de firma:</label>
+                <input type="date" required>
 
-      <label>Mensaje:</label>
-      <textarea required minlength="20"></textarea>
-    </fieldset>
+                <label class="checkbox">
+                    <input type="checkbox" required>
+                    Confirmo que los datos son correctos *
+                </label>
 
+                <label class="checkbox">
+                    <input type="checkbox" required>
+                    Acepto terminos y condiciones *
+                </label>
+            </fieldset>
 
-<fieldset class="formulario">
-  <legend>Firma y confirmación</legend>
+            <button type="submit">Enviar solicitud</button>
+            <button type="reset">Borrar</button>
 
-  <label for="firma">Nombre completo </label>
-  <input type="text" id="firma" placeholder="Escribe tu nombre como firma" required>
+        </form>
+    </section>
 
-  <label for="dni">DNI / Identificación</label>
-  <input type="text" id="dni" placeholder="12345678A">
-
-  <label>Fecha de firma</label>
-  <input type="date" required>
-
-  <label class="checkbox">
-    <input type="checkbox" required>
-    Confirmo que los datos son correctos *
-  </label>
-
-  <label class="checkbox">
-    <input type="checkbox" required>
-    Acepto términos y condiciones *
-  </label>
-
-</fieldset >
-
-    <button type="submit">Enviar solicitud</button>
-    <button type="reset">Borrar</button>
-
-  </form>
-</section>
 
 <footer class="footer">
     <div class="footer-contenido">
@@ -184,5 +171,6 @@
     </div>
 </footer>
     
+
 </body>
 </html>
