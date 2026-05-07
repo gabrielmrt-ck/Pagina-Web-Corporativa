@@ -5,9 +5,16 @@ header {
     top: 0%;
     height: 105px;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    text-decoration: center;
 }
 
 .Areastrab{
@@ -527,16 +534,11 @@ button[type="reset"]:hover {
 
  .footer {
     background-color: #f0efef;
-    color: #0056b3; 
-    bottom: 0%;
-    padding-top: 100px;
+    color: #0056b3;
     width: 100%;
+    margin-top: auto;
+    padding: 40px 20px;
 }
-.blanco{
-    height: 1px;
-    padding: 378px;
-}
-
 
 .footer-contenido {
     display: flex;
@@ -575,7 +577,7 @@ button[type="reset"]:hover {
 .footer-bottom {
     text-align: center;
     border-top: 1px solid #444;
-    margin-top: 20px;
+    margin-top: auto;
     padding-top: 10px;
     font-size: 14px;
 }
