@@ -5,9 +5,16 @@ header {
     top: 0%;
     height: 105px;
 }
-html, body {
-    height: 100%;
-    margin: 0;
+
+.contenedor{
+    flex: 1;
+}
+html {
+  height: 100%; 
+}
+
+.noticias{
+    margin-left: 110px;
 }
 
 body{
@@ -18,15 +25,10 @@ body{
     text-decoration: center;
 }
 
-.Areastrab{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background-image: url("https://media.istockphoto.com/id/1874257402/es/vector/fondo-de-patr%C3%B3n-azul-geom%C3%A9trico-hexagonal.jpg?s=612x612&w=0&k=20&c=rCUFK6UpMquSSEw0R5GTUNPSvqqts1Tu9WTO-B0Vz10=");
-    background-position: 1px;
-    background-attachment: fixed;
+.contacto{
+    flex: 1;
 }
+
 
 .contact{
 padding: 10px;
@@ -84,8 +86,10 @@ div a{
 
 }
 
+
 .contacto {
-  max-width: 900px;
+  width: 700px;
+  height: 500px;
   margin: auto;
   background: #fff;
   padding: 20px;
@@ -112,7 +116,7 @@ legend {
   color: #2c3e50;
   padding: 0 10px;
 }
-    
+
 
 label {
   display: block;
@@ -149,6 +153,7 @@ fieldset div {
   flex-wrap: wrap;
 }
 
+/* BOTONES */
 button {
   padding: 10px 20px;
   border: none;
@@ -175,6 +180,9 @@ button[type="reset"] {
 button[type="reset"]:hover {
   background-color: #c0392b;
 }
+
+
+
 
 .sobre-nosotros {
     max-width: 800px;
@@ -537,7 +545,6 @@ button[type="reset"]:hover {
     background-color: #f0efef;
     color: #0056b3;
     width: 100%;
-    margin-top: auto;
     padding: 40px 20px;
 }
 
@@ -578,7 +585,6 @@ button[type="reset"]:hover {
 .footer-bottom {
     text-align: center;
     border-top: 1px solid #444;
-    margin-top: auto;
     padding-top: 10px;
     font-size: 14px;
 }
