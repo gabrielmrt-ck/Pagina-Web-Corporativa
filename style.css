@@ -11,15 +11,7 @@
   }
 }
 
-@media screen and (min-width: 2560px) {
-  body {
-    font-size: 18px; 
-  }
-  .container {
-    max-width: 2000px;
-    margin: 0 auto;    
-  }
-}
+
 
 
 header {
