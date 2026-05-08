@@ -1,3 +1,18 @@
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .contenedor {
+    width: 100%;
+  }
+}
+
+
+
 header {
     display: flex;
     align-items: center;   
@@ -153,7 +168,7 @@ fieldset div {
   flex-wrap: wrap;
 }
 
-/* BOTONES */
+
 button {
   padding: 10px 20px;
   border: none;
@@ -599,7 +614,7 @@ button[type="reset"]:hover {
   transform: translate(-50%, -50%);
   padding: 12px 48px;
   color: #fff;
-  background: linear-gradient(to right,  hsl(203, 92%, 66%) 0, #afccf4 10%, hsl(203, 100%, 60%) 20%);
+  background: linear-gradient(to right,     #304253  0, #a2acb7  10%, #2c3e50 20%);
   background-position: 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
