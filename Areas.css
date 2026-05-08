@@ -53,10 +53,10 @@ nav {
     font-weight: 400;
     font-family: "Game", sans-serif;
     border-radius: 5px;
-    width: 150px;
+    width: 160px;
     text-align: center;
     display: inline-block;  
-    margin: 5px; /* Evita que os botões fiquem colados uns nos outros */
+    margin: 3px;
 }
 
 div a {
@@ -73,9 +73,9 @@ div a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 30px; /* Substitui as margens individuais dos cartões */
-    padding: 50px 20px;
-    flex-grow: 1; /* Empurra o rodapé para baixo */
+    gap: 30px;
+    padding: 20px 20px;
+    flex-grow: 1;
 }
 
 /* Estilização Individual dos Cartões 3D */
@@ -84,7 +84,7 @@ div a {
     width: 200px;
     height: 250px;
     padding: 5px;
-    padding-top: 50px;
+    padding-top: 5px;
 }
 
 .card .face {

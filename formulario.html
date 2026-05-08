@@ -27,17 +27,27 @@
     </div>
 
     <section class="contacto">
-        <h2>Contacta Con  Nosotros</h2>
+        <h2>Solicitud de Trabajo</h2>
 
         <form class="form-empresa">
 
             <fieldset class="formulario">
-                <legend>Datos de la empresa</legend>
+                <legend>Datos personales</legend>
 
-
-                <label>Nombre de la empresa:</label>
+                <label>Apellidos:</label>
                 <input type="text" required>
 
+                <label>Nombre:</label>
+                <input type="text" required>
+
+                <label>DNI:</label>
+                <input type="text" required>
+
+                <br><label>Nacido/a en:</label>
+                <input type="text" required>
+
+                <label>Estatura:</label>
+                <input type="text" required>
 
                 <label>Provincia:</label>
                 <input type="text" required>
@@ -48,7 +58,7 @@
                 <br><label>Domicilio:</label>
                 <input type="text" required>
 
-                <label>Piso ( Si es un edifico):</label>
+                <label>Piso:</label>
                 <input type="text" required>
 
                 <label>Numero:</label>
@@ -66,11 +76,34 @@
                 <label>Telefono:</label>
                 <input type="tel" pattern="[0-9]{9}">
 
+                <br><label>Sexo:</label>
+                <div>
+                    <label><input type="radio" name="sexo"> Masculino</label>
+                    <label><input type="radio" name="sexo"> Femenino</label>
+                </div>
             </fieldset>
 
-           
             <fieldset class="formulario">
-                <legend>Dejanos informacion y Nos pondremos en contacto </legend>
+                <legend>Documentacion</legend>
+
+                <label>DNI:</label>
+                <input type="text">
+
+                <label>Numero de Pasaporte:</label>
+                <input type="text">
+
+                <br><label>Licencia de conduccion:</label>
+                <div>
+                    <label><input type="radio" name="licencia"> Si</label>
+                    <label><input type="radio" name="licencia"> No</label>
+                </div>
+
+                <label>Tipo de licencia (si tienes):</label>
+                <input type="text">
+            </fieldset>
+
+            <fieldset class="formulario">
+                <legend>Mensaje</legend>
                 <label>Mensaje:</label>
                 <textarea required minlength="20"></textarea>
             </fieldset>
@@ -78,7 +111,7 @@
             <fieldset class="formulario">
                 <legend>Firma y confirmacion</legend>
 
-                <label for="firma">Nombre:</label>
+                <label for="firma">Nombre completo:</label>
                 <input type="text" id="firma" placeholder="Escribe tu nombre como firma" required>
 
                 <label for="dni2">DNI / Identificacion:</label>
