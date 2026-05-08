@@ -442,6 +442,10 @@ p{
     color: #666;
 }
 
+.banner{
+    color: white;
+}
+
 .pub-item {
     margin: 50px;
     display: flex;
