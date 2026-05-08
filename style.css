@@ -68,14 +68,14 @@ padding: 10px;
 
 }
 .Telefono {
-    margin-left: 880px; 
+    margin-left: 1150px; 
     
 }
 
 .Logo{
-    width: 250px;
-    height: 130px;
-    margin-left: 50px;
+    width: 130px;
+    height: 120px;
+    margin-left: 35px;
 }
 
 nav{
@@ -84,7 +84,7 @@ nav{
 
 .menu {
 
-    background-color: rgb(13, 131, 210);
+    background-color: #0056b3;
     color: white;
     font-weight: 400;
     font-family: "Game";
@@ -202,7 +202,7 @@ button[type="reset"]:hover {
 .sobre-nosotros {
     max-width: 800px;
     margin: auto;
-    padding: 20px;
+    padding: 25px;
     font-family: Arial, sans-serif;
 }
 
@@ -438,8 +438,12 @@ button[type="reset"]:hover {
     margin-bottom: 15px;
 }
 
+p{
+    color: #666;
+}
 
 .pub-item {
+    margin: 50px;
     display: flex;
     align-items: flex-start;
     gap: 12px;
@@ -474,6 +478,7 @@ button[type="reset"]:hover {
 }
 
 .pub-desc {
+    padding: 20px;
     color: #666;
     font-size: 0.85rem;
     line-height: 1.5;
@@ -672,5 +677,5 @@ button[type="reset"]:hover {
   }
 }
 
-.boton-outline
+
 
