@@ -10,7 +10,7 @@ body {
     text-align: center;
 }
 
-/* Background geral aplicado na classe Areastrab */
+
 .Areastrab {
     background-image: url("https://media.istockphoto.com/id/1874257402/es/vector/fondo-de-patr%C3%B3n-azul-geom%C3%A9trico-hexagonal.jpg?s=612x612&w=0&k=20&c=rCUFK6UpMquSSEw0R5GTUNPSvqqts1Tu9WTO-B0Vz10=");
     background-position: center;
@@ -18,57 +18,53 @@ body {
     background-size: cover;
 }
 
-/* Configurações do Cabeçalho e Navegação */
+
 header {
     display: flex;
-    align-items: center;   
-    justify-content: space-between; /* Mantém logo na esquerda e tel na direita */
-    background-color: #f0efef; 
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0efef;
+    top: 0%;
     height: 105px;
-    padding: 0 50px;
+    padding: 0 40px;
 }
 
 .Logo {
-    width: 250px;
-    height: 130px;
+    width: 110px;
+    height: 100px;
+    margin-left: 35px;
 }
 
 .Telefono {
-    color: #000;
+    margin-left: auto;
 }
 
 .icontelf {
-    width: 16px;    
+    width: 16px;
     height: 16px;
 }
 
 nav {
     background-color: #f0efef;
-    padding-bottom: 10px;
 }
 
 .menu {
     background-color: #0056b3;
     color: white;
     font-weight: 400;
-    font-family: "Game", sans-serif;
+    font-family: "Game";
     border-radius: 5px;
-    width: 160px;
+    width: 150px;
     text-align: center;
-    display: inline-block;  
-    margin: 3px;
+    display: inline-block;
 }
 
 div a {
     text-decoration: none;
     font-size: 18px;
     color: white;
-    display: block; 
-    padding: 8px 0;
-}
 
-/* Área dos Cartões (Novidade) */
-.contenedor-cards {
+}.contenedor-cards {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -78,11 +74,10 @@ div a {
     flex-grow: 1;
 }
 
-/* Estilização Individual dos Cartões 3D */
 .card {
     position: relative;
-    width: 200px;
-    height: 250px;
+    width: 400px;
+    height: 500px;
     padding: 5px;
     padding-top: 5px;
 }
@@ -166,7 +161,7 @@ div a {
     color: #0056b3;
     width: 100%;
     padding: 40px 20px;
-    box-sizing: border-box; /* Garante que o padding não crie rolagem horizontal */
+    box-sizing: border-box; 
 }
 
 .footer-contenido {
